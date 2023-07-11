@@ -4,7 +4,7 @@ const CONFIG = {
     name: "SeoungHyun",
     image: "/avatar.svg",
     role: "Frontend Developer & Designer",
-    bio: "Nothing Changes If You Don't Try",
+    bio: "Nothing Changes If You Don't Try", 
     email: "dltmdgus1412@gmail.com",
     github: "https://github.com/Jamkris",
     instagram: "",
