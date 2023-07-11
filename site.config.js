@@ -12,14 +12,14 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `My Profile Site`,
+      href: "https://hyun-profile.netlify.app/",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "Jamkris",
+    description: "welcome to SeoungHyunBlog",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
