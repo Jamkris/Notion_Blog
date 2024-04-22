@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document"
 import { CONFIG } from "site.config"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 class MyDocument extends Document {
   render() {
@@ -39,6 +40,7 @@ class MyDocument extends Document {
         <body className="bg-slate-100 dark:bg-black">
           <Main />
           <NextScript />
+          <SpeedInsights />
         </body>
       </Html>
     )
