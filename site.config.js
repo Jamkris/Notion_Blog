@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "SeoungHyun",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Frontend Developer & Desginer",
+    role: "FullStack Developer",
     bio: "Nothing Changes If You Don't Try",
     email: "dltmdgus1412@gmail.com",
     linkedin: "",
@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Jamkris",
-    description: "welcome to SeoungHyunBlog",
+    description: "Welcome to SeoungHyunBlog",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
@@ -59,10 +59,10 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
-      appid: "", // Embed Code -> data-app-id value
+      appid: "aa4c0ddb-ab52-4903-83c2-94ff287c5bce", // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
