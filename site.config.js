@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `My Profile Site`,
-      href: "https://hyun-profile.netlify.app/",
+      href: "https://seounghyunblog.vercel.app/",
     },
   ],
   // blog setting (required)
